@@ -1,0 +1,10 @@
+.SearchColumn{
+    height: 100vh;
+    border-right-color: rgba(40,167,69,.5);
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.hotel_divider {
+  margin : 10px 0px ;
+  border-bottom: 3px dotted #e4e4e4  
+}
