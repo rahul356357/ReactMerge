@@ -5,7 +5,7 @@ const fireRequest = async (method, url, data) => {
     body: JSON.stringify(data),
     headers: {
       'Content-Type': 'application/json',
-      tokenId: localStorage.getItem('auth_token_selene'),
+      tokenId: localStorage.getItem('auth_token'),
     },
   };
   const response = await fetch(fullUrl, options);
