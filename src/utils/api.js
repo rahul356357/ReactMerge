@@ -1,5 +1,5 @@
 const fireRequest = async (method, url, data) => {
-  const fullUrl = `https://www.agoodtrip.co/${url}`;
+  const fullUrl = `${url}`;
   const options = {
     method,
     body: JSON.stringify(data),
